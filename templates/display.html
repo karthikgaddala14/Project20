@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#7fffd4 " >
+
+<center border="5">
+<tr>
+    <th>jod</th>
+    <th>Title</th>
+    <th>Skills</th>
+    <th>Disprestion</th>
+</tr>
+    {% for p in records %}
+        <tr>
+            <th>{p.pid}</th>
+            <th>{p.Title}</th>
+            <th>{p.Skills}</th>
+            <th>{p.Disprestion}</th>
+
+        </tr>
+    {% endfor %}
+
+
+
+</center>
+
+</table>
+</body>
+</html>
